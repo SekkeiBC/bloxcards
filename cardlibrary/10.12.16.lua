@@ -1362,16 +1362,16 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
     },
 	
 	["colesans16"] = {
-        ["Id"] = 679503783,
-       	["Name"] = "colesans16",
-       	["Health"] = 400,
-       	["Power"] = 400,
-       	["Rarity"] = "Common",
-       	["AttackEffect"] = "PunchKick",
-       	["Color"] = "Neutral",
-	["Token"] = true,
-	["Cost"] = {["Neutral"] = 4,},
-        ["Effect"] = {
+       		["Id"] = 679503783,
+       		["Name"] = "colesans16",
+       		["Health"] = 400,
+       		["Power"] = 400,
+       		["Rarity"] = "Common",
+       		["AttackEffect"] = "PunchKick",
+       		["Color"] = "Neutral",
+		["Token"] = true,
+		["Cost"] = {["Neutral"] = 4,},
+       		["Effect"] = {
 			Name = "Hellfire",
 			Description = "When this card dies, gain 4 White icons. This card can't generate icons naturally.",
 			["Type"] = "OnDeath",
