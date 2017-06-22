@@ -4455,9 +4455,9 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 3,["Green"] = 6,},
 		["Effect"] = {
 			Name = "Stud",
-			Description = "Increase the health and power of all zombies by 500. End the turn.",
+			Description = "Increase the health and power of all zombies by 300. End the turn.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Strengthen",500},{"Heal",500},{"EndTurn",1}},
+			["Power"] = {{"Strengthen",300},{"Heal",300},{"EndTurn",1}},
 			Target = "Archetype",
 		},
 		["Bio"] = "The king of the zombies, just don't have two out. That would be awkward.",
